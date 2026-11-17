@@ -1,35 +1,91 @@
-﻿{
-    "version":  1,
-    "updated_at":  "2026-06-29",
-    "apps":  [
-                 {
-                     "app_id":  "haydi_namaza",
-                     "name":  "Haydi Namaza",
-                     "description":  "Namaz vakitleri, kıble yönü, hatırlatmalar ve günlük dini içerikler.",
-                     "url":  "https://raw.githubusercontent.com/mskaymaz/AllApp/main/releases/HaydiNamaza.apk",
-                     "download_url":  "https://raw.githubusercontent.com/mskaymaz/AllApp/main/releases/HaydiNamaza.apk",
-                     "icon_url":  "https://raw.githubusercontent.com/mskaymaz/AllApp/main/app_icons/haydi_namaza.png",
-                     "active":  true,
-                     "order":  10,
-                     "target_apps":  [
-                                         "*"
-                                     ],
-                     "platform":  "mobile",
-                     "icon_asset":  ""
-                 },
-                 {
-                     "app_id":  "rekatsay",
-                     "name":  "Rekat Say",
-                     "description":  "Namaz rekatlarını takip etmeye yardımcı sade ve ücretsiz uygulama.",
-                     "url":  "https://raw.githubusercontent.com/mskaymaz/AllApp/main/releases/RekatSay.apk",
-                     "download_url":  "https://raw.githubusercontent.com/mskaymaz/AllApp/main/releases/RekatSay.apk",
-                     "icon_url":  "https://raw.githubusercontent.com/mskaymaz/AllApp/main/app_icons/rekatsay.png",
-                     "active":  true,
-                     "order":  20,
-                     "target_apps":  [
-                                         "*"
-                                     ],
-                     "platform":  "mobile"
-                 }
-             ]
+{
+  "version": 2,
+  "updated_at": "2026-10-02",
+  "apps": [
+    {
+      "app_id": "haydi_namaza",
+      "name": "Haydi Namaza",
+      "description": "Namaz vakitleri, kıble yönü, hatırlatmalar ve günlük dini içerikler.",
+      "download_url": "https://raw.githubusercontent.com/mskaymaz/MSKLabsApps/main/releases/HaydiNamaza.apk",
+      "icon_url": "https://raw.githubusercontent.com/mskaymaz/MSKLabsApps/main/app_icons/haydi_namaza.png",
+      "web_page": "apps/haydinamaza.html",
+      "status": "active",
+      "active": true,
+      "order": 10,
+      "target_apps": ["*"],
+      "platform": "mobile",
+      "icon_asset": "media/haydinamaza/icon.png"
+    },
+    {
+      "app_id": "rekatsay",
+      "name": "RekatSay",
+      "description": "Namaz rekatlarını takip etmeye yardımcı sade ve ücretsiz uygulama.",
+      "download_url": "https://raw.githubusercontent.com/mskaymaz/MSKLabsApps/main/releases/RekatSay.apk",
+      "icon_url": "https://raw.githubusercontent.com/mskaymaz/MSKLabsApps/main/app_icons/rekatsay.png",
+      "web_page": "apps/rekatsay.html",
+      "status": "active",
+      "active": true,
+      "order": 20,
+      "target_apps": ["*"],
+      "platform": "mobile",
+      "icon_asset": "media/rekatsay/icon.png"
+    },
+    {
+      "app_id": "date_counter",
+      "name": "Date Counter",
+      "description": "Emeklilik, sınav, proje teslimi ve özel günleri masaüstünde anlık takip eden gelişmiş zaman sayacı.",
+      "download_url": "https://github.com/mskaymaz/D_DateCounter/releases/download/v1.1.0/DateCounter.exe",
+      "icon_url": "",
+      "web_page": "apps/date_counter.html",
+      "status": "active",
+      "active": true,
+      "order": 30,
+      "target_apps": ["*"],
+      "platform": "desktop",
+      "icon_asset": "media/date-counter/icon.png"
+    },
+    {
+      "app_id": "en_yakin",
+      "name": "En Yakın",
+      "description": "Çevrenizdeki cami, hastane, eczane ve kritik hizmet noktalarını anında tespit eden konum uygulaması.",
+      "download_url": "",
+      "icon_url": "",
+      "web_page": "apps/enyakin.html",
+      "status": "dev",
+      "active": false,
+      "order": 40,
+      "target_apps": ["*"],
+      "platform": "mobile",
+      "icon_asset": "media/enyakin/icon.png"
+    },
+    {
+      "app_id": "gc_pil_uyari",
+      "name": "GÇ Pil Uyarı",
+      "description": "Batarya ömrünü uzatmak için dolum seviyesi ve sıcaklık bazlı akıllı uyarı sistemi.",
+      "download_url": "",
+      "icon_url": "",
+      "web_page": "apps/gcpiluyari.html",
+      "status": "dev",
+      "active": false,
+      "order": 50,
+      "target_apps": ["*"],
+      "platform": "mobile",
+      "icon_asset": ""
+    },
+    {
+      "app_id": "deskpilot",
+      "name": "DeskPilot",
+      "description": "Operasyonel hızı artıran, eklenti tabanlı modüler verimlilik ve masaüstü yönetim asistanı.",
+      "download_url": "",
+      "icon_url": "",
+      "web_page": "apps/deskpilot.html",
+      "status": "dev",
+      "active": false,
+      "order": 60,
+      "target_apps": ["*"],
+      "platform": "desktop",
+      "icon_asset": "media/deskpilot/icon.png"
+    }
+  ]
 }
+
