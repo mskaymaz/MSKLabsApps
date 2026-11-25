@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "updated_at": "2026-10-02",
+  "updated_at": "2026-11-25",
   "apps": [
     {
       "app_id": "haydi_namaza",
       "name": "Haydi Namaza",
       "description": "Namaz vakitleri, kıble yönü, hatırlatmalar ve günlük dini içerikler.",
-      "download_url": "https://raw.githubusercontent.com/mskaymaz/MSKLabsApps/main/releases/HaydiNamaza.apk",
+      "latest_version": "1.0.5",
+      "r2_keep_versions": 2,
+      "download_url": "https://msklabsdesk-backend.msklabs-org.workers.dev/dl/haydi_namaza/v1.0.5",
+      "versions": [
+        { "version": "v1.0.5", "tier": "r2", "filename": "HaydiNamaza.apk" }
+      ],
       "icon_url": "https://raw.githubusercontent.com/mskaymaz/MSKLabsApps/main/app_icons/haydi_namaza.png",
       "web_page": "apps/haydinamaza.html",
       "status": "active",
@@ -20,7 +25,12 @@
       "app_id": "rekatsay",
       "name": "RekatSay",
       "description": "Namaz rekatlarını takip etmeye yardımcı sade ve ücretsiz uygulama.",
-      "download_url": "https://raw.githubusercontent.com/mskaymaz/MSKLabsApps/main/releases/RekatSay.apk",
+      "latest_version": "1.3.1",
+      "r2_keep_versions": 2,
+      "download_url": "https://msklabsdesk-backend.msklabs-org.workers.dev/dl/rekatsay/v1.3.1",
+      "versions": [
+        { "version": "v1.3.1", "tier": "r2", "filename": "RekatSay.apk" }
+      ],
       "icon_url": "https://raw.githubusercontent.com/mskaymaz/MSKLabsApps/main/app_icons/rekatsay.png",
       "web_page": "apps/rekatsay.html",
       "status": "active",
@@ -34,7 +44,12 @@
       "app_id": "date_counter",
       "name": "Date Counter",
       "description": "Emeklilik, sınav, proje teslimi ve özel günleri masaüstünde anlık takip eden gelişmiş zaman sayacı.",
-      "download_url": "https://github.com/mskaymaz/D_DateCounter/releases/download/v1.1.0/DateCounter.exe",
+      "latest_version": "1.1.0",
+      "r2_keep_versions": 2,
+      "download_url": "https://msklabsdesk-backend.msklabs-org.workers.dev/dl/date_counter/v1.1.0",
+      "versions": [
+        { "version": "v1.1.0", "tier": "r2", "filename": "DateCounter.exe" }
+      ],
       "icon_url": "",
       "web_page": "apps/date_counter.html",
       "status": "active",

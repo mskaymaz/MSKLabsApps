@@ -4,7 +4,7 @@
   "latest_version": "1.0.5",
   "version_code": 10,
   "release_date": "2026-06-29",
-  "download_url": "https://raw.githubusercontent.com/mskaymaz/MSKLabsApps/main/releases/HaydiNamaza.apk",
+  "download_url": "https://msklabsdesk-backend.msklabs-org.workers.dev/dl/haydi_namaza/v1.0.5",
   "drive_download_url": "https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1nMtU6tlxZw2U7x1OM_R49_HtViIGpCGe",
   "force_update": false,
   "notes": {
