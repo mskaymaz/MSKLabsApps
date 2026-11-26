@@ -25,10 +25,11 @@
       "app_id": "rekatsay",
       "name": "RekatSay",
       "description": "Namaz rekatlarını takip etmeye yardımcı sade ve ücretsiz uygulama.",
-      "latest_version": "1.3.1",
+      "latest_version": "1.3.2",
       "r2_keep_versions": 2,
-      "download_url": "https://msklabsdesk-backend.msklabs-org.workers.dev/dl/rekatsay/v1.3.1",
+      "download_url": "https://msklabsdesk-backend.msklabs-org.workers.dev/dl/rekatsay/v1.3.2",
       "versions": [
+        { "version": "v1.3.2", "tier": "r2", "filename": "RekatSay-v1.3.2.apk" },
         { "version": "v1.3.1", "tier": "r2", "filename": "RekatSay.apk" }
       ],
       "icon_url": "https://raw.githubusercontent.com/mskaymaz/MSKLabsApps/main/app_icons/rekatsay.png",
