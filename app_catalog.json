@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-25",
+  "updated_at": "2026-11-27",
   "apps": [
     {
       "app_id": "haydi_namaza",
@@ -45,10 +45,11 @@
       "app_id": "date_counter",
       "name": "Date Counter",
       "description": "Emeklilik, sınav, proje teslimi ve özel günleri masaüstünde anlık takip eden gelişmiş zaman sayacı.",
-      "latest_version": "1.1.0",
+      "latest_version": "1.1.1",
       "r2_keep_versions": 2,
-      "download_url": "https://msklabsdesk-backend.msklabs-org.workers.dev/dl/date_counter/v1.1.0",
+      "download_url": "https://msklabsdesk-backend.msklabs-org.workers.dev/dl/date_counter/v1.1.1",
       "versions": [
+        { "version": "v1.1.1", "tier": "r2", "filename": "DateCounter-v1.1.1.exe" },
         { "version": "v1.1.0", "tier": "r2", "filename": "DateCounter.exe" }
       ],
       "icon_url": "",
